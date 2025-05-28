@@ -1,0 +1,44 @@
+[
+	{
+		"name": "home",
+		"rootPath": "vscode-remote://wsl+Ubuntu/home/stefan",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "sandbox",
+		"rootPath": "vscode-remote://wsl+Ubuntu/home/stefan/projects/sandbox",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "tutoring",
+		"rootPath": "vscode-remote://wsl+Ubuntu/home/stefan/projects/tutoring",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "py4e",
+		"rootPath": "vscode-remote://wsl+Ubuntu/home/stefan/projects/py4e",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "assistant: home",
+		"rootPath": "vscode-remote://ssh-remote+assistant/home/stefan",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "assistant: assistant",
+		"rootPath": "vscode-remote://ssh-remote+assistant/usr/local/assistant",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	}
+]
