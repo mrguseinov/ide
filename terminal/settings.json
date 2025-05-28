@@ -11,6 +11,11 @@
             "id": "Terminal.CopyToClipboard",
             "keys": "ctrl+c"
         },
+        // https://stackoverflow.com/a/67432615
+        // {
+        //     "id": "Terminal.PasteFromClipboard",
+        //     "keys": "ctrl+v"
+        // },
         {
             "id": "Terminal.DuplicatePaneAuto",
             "keys": "alt+shift+d"
