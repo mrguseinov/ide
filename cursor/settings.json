@@ -1,0 +1,199 @@
+{
+    "projectManager.sortList": "Saved",
+
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+
+    "workbench.tree.indent": 14,
+    // "workbench.startupEditor": "none",  // Unsupported by Cursor.
+    "workbench.settings.editor": "json",
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.activityBar.location": "top",
+    "workbench.iconTheme": "material-icon-theme",
+
+    "editor.fontSize": 16,
+    // "editor.tabCompletion": "on",
+    "editor.stickyTabStops": true,
+    "editor.minimap.enabled": false,
+    "editor.cursorBlinking": "solid",
+    "editor.accessibilitySupport": "off",
+    "editor.renderWhitespace": "trailing",
+    "editor.fontFamily": "Source Code Pro",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.allowedLocales": {"ru": true},
+
+    "outline.collapseItems": "alwaysCollapse",
+
+    "diffEditor.renderSideBySide": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.openRepositoryInParentFolders": "never",
+
+    "debug.inlineValues": "on",
+    "debug.showVariableTypes": true,
+    "debug.console.fontFamily": "Source Code Pro",
+
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.scrollback": 2000,
+    "terminal.integrated.showExitAlert": false,
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.commandsToSkipShell": [
+        "projectManager.listProjects",
+        "saveAllFiles.runCurrentPythonFile",
+        "workbench.action.files.newUntitledFile",
+        "workbench.action.toggleSidebarVisibility",
+        "clearTerminal.saveAllFiles.runCurrentPythonFile",
+    ],
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+
+    "testing.automaticallyOpenTestResults": "openOnTestFailure",
+
+    "files.exclude": {
+        "**/.git": false,
+        "**/__pycache__/": true,
+    },
+    "files.watcherExclude": {
+        "**/.git/**": true,
+        "**/.venv/**": true,
+        "**/.cache/**": true,
+        "**/.local/**": true,
+        "**/.vscode/**": true,
+        "**/__pycache__/**": true,
+        "**/site-packages/**": true,
+        "**/.vscode-server/**": true,
+    },
+    "files.associations": {
+        "*.env*": "dotenv",
+        ".*bash*": "shellscript",
+        ".inputrc": "shellscript",
+        "sshd_config": "ssh_config",
+        "**/.ssh/config": "ssh_config",
+    },
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+
+    "remote.SSH.remotePlatform": {
+        "vps": "linux",
+        "local": "linux",
+        "assistant": "linux"
+    },
+    "remote.autoForwardPorts": false,
+
+    "[python]": {
+        "editor.rulers": [99],
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports.ruff": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff",
+    },
+    "notebook.lineNumbers": "on",
+    "notebook.output.wordWrap": true,
+    "notebook.formatOnSave.enabled": true,
+    "notebook.formatOnCellExecution": true,
+    "python.testing.pytestEnabled": true,
+    "python.terminal.activateEnvironment": false,
+    "pythonIndent.trimLinesWithOnlyWhitespace": true,
+    "ruff.lineLength": 99,
+    "ruff.lint.select": ["ALL"],
+    "ruff.lint.ignore": [
+        "D", "ANN101", "ANN102", "ANN401", "T201", "PLC0414", "ERA001", "EM101", "EM102",
+        "ISC003", "RUF001", "RUF002", "RUF003",
+        "W191", "E111", "E114", "E117", "D206", "D300", "Q000", "Q001", "Q002", "Q003", "COM812",
+        "COM819", "ISC001", "ISC002",
+    ],
+    "python.languageServer": "Pylance",
+    "python.analysis.exclude": [
+        "**/.git/**",
+        "**/.venv/**",
+        "**/.cache/**",
+        "**/.local/**",
+        "**/.vscode/**",
+        "**/__pycache__/**",
+        "**/site-packages/**",
+        "**/.vscode-server/**",
+    ],
+	"python.analysis.autoFormatStrings": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.typeCheckingMode": "strict",
+    "python.analysis.diagnosticSeverityOverrides": {
+        // https://microsoft.github.io/pyright/#/configuration
+
+        "reportUnusedImport": false,  // Handled by Ruff.
+        "reportUnusedVariable": false,  // Handled by Ruff.
+        "reportShadowedImports": false,  // Handled by Ruff.
+        "reportMissingParameterType": false,  // Handled by Ruff.
+        "reportUnknownParameterType": false,  // Handled by Ruff.
+
+        "reportUnusedCallResult": "warning",
+        "reportCallInDefaultInitializer": "warning",
+        "reportImplicitStringConcatenation": "warning",
+        "reportUnnecessaryTypeIgnoreComment": "warning",
+
+        "reportImportCycles": "error",
+        "deprecateTypingAliases": "error",
+        "reportImplicitOverride": "error",
+        "enableExperimentalFeatures": "error",
+        "reportPropertyTypeMismatch": "error",
+
+        "reportMissingSuperCall": false,  // Default.
+
+        "reportMissingTypeStubs": "warning",  // Testing (21.05.2025).
+        "reportUnknownMemberType": "warning",  // Testing (21.05.2025).
+        "reportUnknownVariableType": "warning",  // Testing (21.05.2025).
+        "reportUnnecessaryIsInstance": "warning",  // Testing (21.05.2025).
+        "reportIncompatibleVariableOverride": "warning",  // Testing (21.05.2025).
+        "reportUninitializedInstanceVariable": "warning",  // Testing (21.05.2025).
+    },
+
+    "[powershell]": {
+        "editor.rulers": [86],
+        "editor.formatOnSave": true,
+    },
+    "powershell.integratedConsole.showOnStartup": false,
+
+    "[shellscript]": {
+        "editor.rulers": [86],
+    },
+
+    "cSpell.language": "en, ru",
+    "cSpell.ignorePaths": [
+        ".env*",
+        ".vscode",
+        "settings.json",
+        ".vscode-insiders",
+        "**/.git/objects/**",
+        "**/node_modules/**",
+        "**/package-lock.json",
+        "**/vscode-extension/**",
+    ],
+
+    "multiCommand.commands": [
+        {
+            "command": "saveAllFiles.runCurrentPythonFile",
+            "sequence": [
+                "workbench.action.files.saveAll",
+                "python.execInTerminal",
+                "workbench.action.terminal.focus",
+            ],
+        },
+        {
+            "command": "clearTerminal.saveAllFiles.runCurrentPythonFile",
+            "sequence": [
+                "workbench.action.terminal.clear",
+                "saveAllFiles.runCurrentPythonFile",
+            ],
+        },
+    ],
+
+    "cursor.composer.textSizeScale": 1.15,
+    "cursor.composer.shouldAutoScrollToBottom": false,
+    "cursor.chat.terminalShowHoverHint": false,
+    "cursor.cpp.enablePartialAccepts": true,
+}
