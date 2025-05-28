@@ -22,3 +22,8 @@ cursor --install-extension dart-code.flutter
 cursor --install-extension ms-vscode.powershell
 cursor --install-extension mrorz.language-gettext
 ```
+
+### Settings, Shortcuts & Projects
+- Settings → Press `Ctrl+,` and switch to the JSON format. Use `settings.json`.
+- Shortcuts → Press `Ctrl+M Ctrl+S` and switch to the JSON format. Use `keybindings.json`.
+- Projects → Press `F1` and write `Project Manager: Edit Projects`. Use `projects.json`.
