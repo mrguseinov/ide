@@ -20,5 +20,9 @@
         "key": "Ctrl+Shift+K",
         "command": "-aipopup.action.modal.generate",
         "when": "editorFocus && !composerBarIsVisible"
+    },
+    {
+        "key": "Ctrl+Shift+L",
+        "command": "-aichat.insertselectionintochat"
     }
 ]
