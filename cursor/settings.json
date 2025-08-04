@@ -5,16 +5,16 @@
     "explorer.confirmDragAndDrop": false,
 
     "workbench.tree.indent": 14,
-    // "workbench.startupEditor": "none",  // Unsupported by Cursor.
+    // "workbench.startupEditor": "none",  // Default by Cursor.
     "workbench.settings.editor": "json",
     "workbench.colorTheme": "Default Dark+",
     "workbench.activityBar.location": "top",
     "workbench.iconTheme": "material-icon-theme",
 
     "editor.fontSize": 16,
-    // "editor.tabCompletion": "on",
+    // "editor.tabCompletion": "on",  // Unnececary in Cursor.
     "editor.stickyTabStops": true,
-    "editor.minimap.enabled": false,
+    // "editor.minimap.enabled": false,  // Default in Cursor.
     "editor.cursorBlinking": "solid",
     "editor.accessibilitySupport": "off",
     "editor.renderWhitespace": "trailing",
@@ -105,7 +105,7 @@
     "python.languageServer": "Pylance",
 	"python.analysis.autoFormatStrings": true,
     "python.analysis.autoImportCompletions": true,
-    "python.analysis.diagnosticMode": "workspace",
+    // "python.analysis.diagnosticMode": "workspace",
     "python.analysis.inlayHints.functionReturnTypes": true,
 
     "docker.extension.dockerEngineAvailabilityPrompt": false,
@@ -149,12 +149,10 @@
             ],
         },
     ],
-
-    "cursor.composer.textSizeScale": 1.3,
-    "cursor.composer.shouldAutoScrollToBottom": false,
-    "cursor.chat.terminalShowHoverHint": false,
     "cursor.cpp.enablePartialAccepts": true,
+    "cursor.chat.terminalShowHoverHint": false,
+    "cursor.composer.textSizeScale": 1.3,
     "cursor.composer.shouldAutoAcceptDiffs": false,
-    "update.enableWindowsBackgroundUpdates": false,
-    "update.mode": "none",
+    "cursor.composer.shouldAutoScrollToBottom": false,
+    "cursor.terminal.usePreviewBox": true,
 }
