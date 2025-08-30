@@ -4,6 +4,12 @@ alias pytohn='python'
 alias server='python -m http.server'
 alias jl='uv run jupyter lab'
 
+# Docker.
+alias dw='docker compose up backend --build --watch'
+
+# Pre-commit.
+alias pc='uv run pre-commit run --all-files'
+
 # Files in the current directory with permissions, owners, and modification dates.
 alias lsl='ls -la'
 
@@ -23,6 +29,7 @@ alias hg='history | grep -i'
 
 # Git.
 alias gs='git status -u'
+alias gd='git diff --staged > git.diff'
 alias gf='git fetch -p'
 alias gl='git log --oneline'
 alias gb='git branch -va'
