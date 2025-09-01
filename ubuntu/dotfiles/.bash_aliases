@@ -29,7 +29,8 @@ alias hg='history | grep -i'
 
 # Git.
 alias gs='git status -u'
-alias gd='git diff --staged > git.diff'
+alias gds='git diff --staged > git.diff'
+alias gdm='git diff main > git.diff'
 alias gf='git fetch -p'
 alias gl='git log --oneline'
 alias gb='git branch -va'
