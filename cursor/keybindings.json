@@ -7,15 +7,6 @@
         "key": "Alt+2",
         "command": "clearTerminal.saveAllFiles.runCurrentPythonFile",
     },
-    // {
-    //     "key": "Ctrl+L",
-    //     "command": "aichat.newchataction",
-    //     "when": "!terminalFocus"
-    // },
-    // {
-    //     "key": "Ctrl+L",
-    //     "command": "-aichat.newchataction"
-    // },
     {
         "key": "Ctrl+Shift+K",
         "command": "-aipopup.action.modal.generate",
@@ -23,6 +14,6 @@
     },
     {
         "key": "Ctrl+Shift+L",
-        "command": "-aichat.insertselectionintochat"
+        "command": "-composer.newAgentChat"
     }
 ]
