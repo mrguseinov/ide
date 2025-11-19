@@ -1,0 +1,25 @@
+{
+    "files.exclude": {
+        "**/.git": false,
+        "**/__pycache__/": true,
+    },
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+
+    "[python]": {
+        "editor.rulers": [99],
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports.ruff": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff",
+    },
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.languageServer": "Pylance",
+    "python.terminal.activateEnvironment": false,
+    "python.testing.pytestEnabled": true,
+    "pythonIndent.trimLinesWithOnlyWhitespace": true,
+}
