@@ -5,7 +5,8 @@ alias server='python -m http.server'
 alias jl='uv run jupyter lab'
 
 # Docker.
-alias dw='docker compose up backend --build --watch'
+alias dw='docker compose up --build --watch'
+alias dc='docker compose'
 
 # Pre-commit.
 alias pc='uv run pre-commit run --all-files'
@@ -29,14 +30,16 @@ alias hg='history | grep -i'
 
 # Git.
 alias gs='git status -u'
+alias gl='git log --oneline'
+alias gc='git commit'
+alias gb='git branch'
+alias gba='git branch -va'
 alias gds='git diff --staged > git.diff'
 alias gdm='git diff main > git.diff'
-alias gf='git fetch -p'
-alias gl='git log --oneline'
-alias gb='git branch -va'
-alias gc='git commit'
-alias gp='git push'
-alias gcb='git checkout -b'
+alias gps='git push'
+alias gpl='git pull'
+alias gcb='git checkout'
+alias gcn='git checkout -b'
 alias gcm='git checkout main'
 
 # Find files and directories.
