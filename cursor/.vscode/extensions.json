@@ -16,5 +16,6 @@
         "yzhang.markdown-all-in-one",
         "dart-code.flutter",
         "ms-vscode.powershell",
+        "biomejs.biome",
     ]
 }
