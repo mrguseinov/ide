@@ -1,135 +1,21 @@
 {
-    "projectManager.sortList": "Saved",
-
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
 
+    "window.autoDetectColorScheme": true,
     "workbench.tree.indent": 14,
-    // "workbench.startupEditor": "none",  // Default in Cursor.
     "workbench.settings.editor": "json",
-    "workbench.colorTheme": "Default Dark+",
-    "workbench.activityBar.location": "top",
-    "workbench.iconTheme": "material-icon-theme",
 
-    "editor.fontSize": 16,
-    // "editor.tabCompletion": "on",  // Unnececary in Cursor.
     "editor.stickyTabStops": true,
-    // "editor.minimap.enabled": false,  // Default in Cursor.
     "editor.cursorBlinking": "solid",
     "editor.renderWhitespace": "trailing",
-    "editor.fontFamily": "Source Code Pro",
-    "editor.unicodeHighlight.nonBasicASCII": false,
-    "editor.unicodeHighlight.ambiguousCharacters": false,
-    "editor.unicodeHighlight.allowedLocales": { "ru": true },
 
     "outline.collapseItems": "alwaysCollapse",
 
-    "diffEditor.renderSideBySide": false,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "git.openRepositoryInParentFolders": "never",
-
-    "debug.inlineValues": "on",
-    "debug.showVariableTypes": true,
-    "debug.console.fontFamily": "Source Code Pro",
-
-    "terminal.integrated.fontSize": 15,
-    "terminal.integrated.scrollback": 2000,
-    "terminal.integrated.showExitAlert": false,
-    "terminal.integrated.defaultProfile.linux": "bash",
-    "terminal.integrated.commandsToSkipShell": [
-        "projectManager.listProjects",
-        "saveAllFiles.runCurrentPythonFile",
-        "workbench.action.files.newUntitledFile",
-        "workbench.action.toggleSidebarVisibility",
-        "clearTerminal.saveAllFiles.runCurrentPythonFile",
-    ],
-    "terminal.integrated.enablePersistentSessions": false,
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "terminal.integrated.enableMultiLinePasteWarning": "never",
-    "terminal.integrated.persistentSessionReviveProcess": "never",
-    "terminal.integrated.shellIntegration.enabled": true,
-    "terminal.integrated.suggest.enabled": true,
-
-    "testing.automaticallyOpenTestResults": "openOnTestFailure",
-
-    "files.exclude": {
-        "**/.git": false,
-        "**/__pycache__/": true,
-    },
-    "files.watcherExclude": {
-        "**/.git/**": true,
-        "**/.venv/**": true,
-        "**/.cache/**": true,
-        "**/.local/**": true,
-        "**/.vscode/**": true,
-        "**/__pycache__/**": true,
-        "**/site-packages/**": true,
-        "**/.vscode-server/**": true,
-    },
-    "files.associations": {
-        "*.env*": "dotenv",
-        ".*bash*": "shellscript",
-        ".inputrc": "shellscript",
-        "sshd_config": "ssh_config",
-        "**/.ssh/config": "ssh_config",
-        ".dockerignore": "ignore"
-    },
-    "files.trimFinalNewlines": true,
-    "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
-
-    "remote.SSH.remotePlatform": {
-        "vps": "linux",
-        "local": "linux",
-        "assistant": "linux"
-    },
-    "remote.autoForwardPorts": false,
-
-    "docker.extension.dockerEngineAvailabilityPrompt": false,
-
-    "[powershell]": {
-        "editor.rulers": [86],
-        "editor.formatOnSave": true,
-    },
-    "powershell.integratedConsole.showOnStartup": false,
-
-    "[shellscript]": {
-        "editor.rulers": [86],
-    },
-
-    "cSpell.language": "en, ru",
-    "cSpell.ignorePaths": [
-        "**/.git/**",
-        "**/node_modules/**",
-        "**/package-lock.json",
-        "**/vscode-extension/**",
-    ],
-
-    "multiCommand.commands": [
-        {
-            "command": "saveAllFiles.runCurrentPythonFile",
-            "sequence": [
-                "workbench.action.files.saveAll",
-                "python.execInTerminal",
-                "workbench.action.terminal.focus",
-            ],
-        },
-        {
-            "command": "clearTerminal.saveAllFiles.runCurrentPythonFile",
-            "sequence": [
-                "workbench.action.terminal.clear",
-                "saveAllFiles.runCurrentPythonFile",
-            ],
-        },
-    ],
-
-    "cursor.cpp.enablePartialAccepts": true,
-    "cursor.composer.textSizeScale": 1.3,
-    "cursor.composer.shouldAutoAcceptDiffs": false,
-    "cursor.terminal.usePreviewBox": true,
-
-    "update.enableWindowsBackgroundUpdates": false,
-    "update.mode": "none",
+    "projectManager.sortList": "Saved",
 
     "biome.suggestInstallingGlobally": false,
+
+    "cursor.composer.usageSummaryDisplay": "always",
+    "cursor.cpp.enablePartialAccepts": true,
 }
