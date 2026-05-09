@@ -1,55 +1,7 @@
 [
 	{
 		"name": "home",
-		"rootPath": "vscode-remote://wsl+Ubuntu/home/stefan",
-		"paths": [],
-		"tags": [],
-		"enabled": true,
-		"profile": ""
-	},
-	{
-		"name": "sandbox",
-		"rootPath": "vscode-remote://wsl+Ubuntu/home/stefan/projects/sandbox",
-		"paths": [],
-		"tags": [],
-		"enabled": true,
-		"profile": ""
-	},
-	{
-		"name": "tutoring",
-		"rootPath": "vscode-remote://wsl+Ubuntu/home/stefan/projects/tutoring",
-		"paths": [],
-		"tags": [],
-		"enabled": true,
-		"profile": ""
-	},
-	{
-		"name": "py4e",
-		"rootPath": "vscode-remote://wsl+Ubuntu/home/stefan/projects/py4e",
-		"paths": [],
-		"tags": [],
-		"enabled": true,
-		"profile": ""
-	},
-	{
-		"name": "booker",
-		"rootPath": "vscode-remote://wsl+Ubuntu/home/stefan/projects/booker",
-		"paths": [],
-		"tags": [],
-		"enabled": true,
-		"profile": ""
-	},
-	{
-		"name": "assistant: home",
-		"rootPath": "vscode-remote://ssh-remote+assistant/home/stefan",
-		"paths": [],
-		"tags": [],
-		"enabled": true,
-		"profile": ""
-	},
-	{
-		"name": "assistant: assistant",
-		"rootPath": "vscode-remote://ssh-remote+assistant/usr/local/assistant",
+		"rootPath": "/Users/ivan",
 		"paths": [],
 		"tags": [],
 		"enabled": true,
@@ -57,7 +9,7 @@
 	},
 	{
 		"name": "herald-infra",
-		"rootPath": "vscode-remote://wsl+ubuntu/home/stefan/projects/herald-infra",
+		"rootPath": "/Users/ivan/Projects/herald-infra",
 		"paths": [],
 		"tags": [],
 		"enabled": true,
@@ -65,7 +17,7 @@
 	},
 	{
 		"name": "herald-frontend",
-		"rootPath": "vscode-remote://wsl+ubuntu/home/stefan/projects/herald-frontend",
+		"rootPath": "/Users/ivan/Projects/herald-frontend",
 		"paths": [],
 		"tags": [],
 		"enabled": true,
@@ -73,7 +25,7 @@
 	},
 	{
 		"name": "herald-backend",
-		"rootPath": "vscode-remote://wsl+ubuntu/home/stefan/projects/herald-backend",
+		"rootPath": "/Users/ivan/Projects/herald-backend",
 		"paths": [],
 		"tags": [],
 		"enabled": true,
@@ -81,15 +33,7 @@
 	},
 	{
 		"name": "univer-bridge",
-		"rootPath": "vscode-remote://wsl+ubuntu/home/stefan/projects/univer-bridge",
-		"paths": [],
-		"tags": [],
-		"enabled": true,
-		"profile": ""
-	},
-	{
-		"name": "univer-mini",
-		"rootPath": "vscode-remote://wsl+Ubuntu/home/stefan/projects/univer-mini",
+		"rootPath": "/Users/ivan/Projects/univer-bridge",
 		"paths": [],
 		"tags": [],
 		"enabled": true,
