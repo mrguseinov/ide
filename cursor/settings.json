@@ -10,6 +10,10 @@
     "editor.cursorBlinking": "solid",
     "editor.renderWhitespace": "trailing",
 
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+
     "outline.collapseItems": "alwaysCollapse",
 
     "projectManager.sortList": "Saved",
