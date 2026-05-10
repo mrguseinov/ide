@@ -14,6 +14,8 @@
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
 
+    "diffEditor.renderSideBySide": false,
+
     "outline.collapseItems": "alwaysCollapse",
 
     "projectManager.sortList": "Saved",
