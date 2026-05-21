@@ -15,11 +15,11 @@
         },
         "editor.defaultFormatter": "charliermarsh.ruff",
     },
-    "python.analysis.autoFormatStrings": true,
-    "python.analysis.autoImportCompletions": true,
-    "python.analysis.inlayHints.functionReturnTypes": true,
-    "python.languageServer": "Pylance",
-    "python.terminal.activateEnvironment": false,
+    "python.languageServer": "None",
     "python.testing.pytestEnabled": true,
+    "python.terminal.activateEnvironment": false,
     "pythonIndent.trimLinesWithOnlyWhitespace": true,
+
+    "ty.inlayHints.variableTypes": false,
+    "ty.inlayHints.callArgumentNames": false
 }
