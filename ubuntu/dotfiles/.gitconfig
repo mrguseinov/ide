@@ -7,7 +7,7 @@
     gpgsign = true
 
 [tag]
-	gpgSign = true
+    gpgSign = true
 
 # https://stackoverflow.com/q/18308535
 [fetch]
