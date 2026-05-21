@@ -24,4 +24,6 @@
 
     "cursor.composer.usageSummaryDisplay": "always",
     "cursor.cpp.enablePartialAccepts": true,
+
+    "keyboard.dispatch": "keyCode"
 }
