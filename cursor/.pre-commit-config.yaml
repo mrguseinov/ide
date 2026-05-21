@@ -22,14 +22,14 @@ repos:
       types_or: [python, pyi, jupyter]
       require_serial: true
 
-    - id: pyright
-      name: pyright
-      entry: uv run pyright
+    - id: ty-check
+      name: ty check
+      entry: uv run ty check --no-progress --force-exclude
       language: system
-      types_or: [python, pyi]
+      types_or: [python, pyi, jupyter]
       require_serial: true
 
   - repo: https://github.com/streetsidesoftware/cspell-cli
-    rev: v9.2.0
+    rev: v9.7.0
     hooks:
       - id: cspell
