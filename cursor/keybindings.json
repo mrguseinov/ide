@@ -1,19 +1,11 @@
 [
     {
-        "key": "Alt+1",
-        "command": "saveAllFiles.runCurrentPythonFile",
-    },
-    {
-        "key": "Alt+2",
-        "command": "clearTerminal.saveAllFiles.runCurrentPythonFile",
-    },
-    {
-        "key": "Ctrl+Shift+K",
+        "key": "shift+cmd+k",
         "command": "-aipopup.action.modal.generate",
         "when": "editorFocus && !composerBarIsVisible"
     },
     {
-        "key": "Ctrl+Shift+L",
+        "key": "shift+cmd+l",
         "command": "-composer.newAgentChat"
     }
 ]
