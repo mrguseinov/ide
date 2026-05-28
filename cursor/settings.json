@@ -22,8 +22,11 @@
 
     "biome.suggestInstallingGlobally": false,
 
-    "cursor.composer.usageSummaryDisplay": "always",
     "cursor.cpp.enablePartialAccepts": true,
+    "cursor.composer.usageSummaryDisplay": "always",
+    "cursor.composer.queueMessageDefaultBehavior": "stop-and-send",
 
-    "keyboard.dispatch": "keyCode"
+    "keyboard.dispatch": "keyCode",
+
+    "cSpell.language": "en, ru",
 }
