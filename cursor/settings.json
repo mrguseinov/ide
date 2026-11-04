@@ -15,6 +15,7 @@
     "files.trimTrailingWhitespace": true,
 
     "diffEditor.renderSideBySide": false,
+    "git.useIntegratedAskPass": false,
 
     "outline.collapseItems": "alwaysCollapse",
 
@@ -25,8 +26,9 @@
     "cursor.cpp.enablePartialAccepts": true,
     "cursor.composer.usageSummaryDisplay": "always",
     "cursor.composer.queueMessageDefaultBehavior": "stop-and-send",
+    "cursor.composer.shouldChimeAfterChatFinishes": true,
 
     "keyboard.dispatch": "keyCode",
 
-    "cSpell.language": "en, ru",
+    "python.terminal.activateEnvironment": false,
 }
